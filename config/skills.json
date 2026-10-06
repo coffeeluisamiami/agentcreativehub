@@ -72,6 +72,275 @@
         "hacer slides para instagram",
         "generar post de carrusel"
       ]
+    },
+    {
+      "id": "scraper",
+      "name": "ScrapeGraphAI Web Scraper",
+      "file": "skills/scraper.md",
+      "role": "specialist",
+      "description": "Extracts structured JSON data from any website, URL, or local document (HTML, XML, JSON, Markdown) using LLM-driven ScrapeGraphAI pipelines. Handles single pages, multiple pages, search results, script generation, and speech output with OpenAI, Groq, Gemini, Azure, or local Ollama models.",
+      "trigger_phrases": [
+        "scrape this website",
+        "extract data from",
+        "web scraping",
+        "get the menu items and prices from",
+        "pull founders and social links from",
+        "scrape multiple pages",
+        "search the web for",
+        "extract data from a pdf",
+        "raspar esta pagina",
+        "extraer datos de",
+        "web scraping en espanol",
+        "sacar informacion de",
+        "raspar el sitio de"
+      ]
+    },
+    {
+      "id": "hindsight",
+      "name": "Hindsight Agent Memory",
+      "file": "skills/hindsight.md",
+      "role": "specialist",
+      "description": "Adds long-term memory that learns to any agent using Hindsight (vectorize-io). retain/recall/reflect over isolated memory banks with world facts, observations, mental models, and knowledge pages; 2-line LLM wrapper for OpenAI/Anthropic, Python/Node/Go/CLI SDKs, REST + MCP endpoints, 25+ LLM providers including local Ollama.",
+      "trigger_phrases": [
+        "add memory to my agent",
+        "give my agent long term memory",
+        "remember things across sessions",
+        "set up hindsight",
+        "agent memory that learns",
+        "recall past conversations",
+        "mental models for the agent",
+        "memory bank for the ai",
+        "agregar memoria a mi agente",
+        "memoria a largo plazo",
+        "el agente debe recordar",
+        "configurar hindsight"
+      ]
+    },
+    {
+      "id": "autoresearch",
+      "name": "Autoresearch Training Agent",
+      "file": "skills/autoresearch.md",
+      "role": "specialist",
+      "description": "Runs Karpathy-style autonomous LLM research (karpathy/autoresearch): an AI agent edits train.py, trains a nanochat GPT on a fixed 5-minute budget, measures val_bpb, and keeps or reverts each change overnight. Single NVIDIA GPU; forks listed for Windows, MacOS, and AMD.",
+      "trigger_phrases": [
+        "run autonomous training research",
+        "set up autoresearch",
+        "let the agent train a model overnight",
+        "kick off an experiment",
+        "karpathy autoresearch",
+        "improve the nanochat model",
+        "self modifying training loop",
+        "entrenar un modelo automaticamente",
+        "investigacion autonoma de ia",
+        "autoresearch overnight"
+      ]
+    },
+    {
+      "id": "gws",
+      "name": "Google Workspace CLI",
+      "file": "skills/gws.md",
+      "role": "specialist",
+      "description": "Manages Google Workspace (Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, Apps Script, events) through the gws CLI. Dynamically built from Google Discovery Service, structured JSON output, OAuth/service-account auth, helper commands (+send, +agenda, +triage, +upload, +standup-report), and 100+ bundled agent skills.",
+      "trigger_phrases": [
+        "manage my google workspace",
+        "send a gmail",
+        "list my google drive files",
+        "create a google doc",
+        "whats on my calendar",
+        "google sheets",
+        "gmail triage",
+        "upload to drive",
+        "google workspace cli",
+        "gws command",
+        "gestionar mi correo",
+        "enviar un email por gmail",
+        "que tengo en el calendario",
+        "mis archivos de drive"
+      ]
+    },
+    {
+      "id": "anthropic_skills",
+      "name": "Anthropic Agent Skills Library",
+      "file": "skills/anthropic_skills.md",
+      "role": "specialist",
+      "description": "Discovers, installs, and applies official Anthropic Agent Skills from anthropics/skills (180k stars) — document skills (docx, pdf, pptx, xlsx), example skills (art, music, design, web testing, MCP generation), the Agent Skills spec, and the skill template for authoring new skills.",
+      "trigger_phrases": [
+        "browse anthropic skills",
+        "install an agent skill",
+        "create a word document",
+        "extract text from a pdf",
+        "make a powerpoint",
+        "excel spreadsheet from a skill",
+        "agent skills library",
+        "how to write a skill",
+        "skill template",
+        "agent skills spec",
+        "ver las skills de anthropic",
+        "como se crea una skill",
+        "instalar una skill de claude"
+      ]
+    },
+    {
+      "id": "context_mode",
+      "name": "Context Mode Optimizer",
+      "file": "skills/context_mode.md",
+      "role": "specialist",
+      "description": "Context window optimization via mksglu/context-mode: sandboxed tool output (98% reduction), SQLite session memory with FTS5/BM25 retrieval, routing enforcement across 17 platforms, and think-in-code workflows. MCP server + plugins for Claude Code, OpenCode, Cursor, Gemini CLI, and more.",
+      "trigger_phrases": [
+        "optimize context window",
+        "reduce context usage",
+        "context mode",
+        "sandbox tool output",
+        "agent session memory",
+        "ctx stats",
+        "ctx doctor",
+        "think in code",
+        "mcp context mode",
+        "optimizar contexto",
+        "ahorrar contexto de la ia",
+        "memoria de sesion"
+      ]
+    },
+    {
+      "id": "taste",
+      "name": "Taste — Anti-Slop UI Design",
+      "file": "skills/taste.md",
+      "role": "specialist",
+      "description": "Anti-slop frontend design skill from Leonxlnx/taste-skill. Stops generic AI-generated UI (purple gradients, cookie-cutter cards, default Inter) by enforcing real design taste: strong typographic hierarchy, deliberate color restraint, and composition matched to the content's purpose. Variants: soft, minimalist, brutalist, image-to-code, imagegen.",
+      "trigger_phrases": [
+        "stop generating slop",
+        "use taste",
+        "this ui looks ai generated",
+        "make the design less generic",
+        "frontend design taste",
+        "anti slop design",
+        "redesign this ui",
+        "image to code design",
+        "brutalist design",
+        "minimalist design",
+        "el diseno se ve de ia",
+        "diseño generico",
+        "mejorar el diseno"
+      ]
+    },
+    {
+      "id": "humanizer",
+      "name": "Humanizer — Remove AI Writing Tells",
+      "file": "skills/humanizer.md",
+      "role": "specialist",
+      "description": "Rewrites AI-generated prose to remove detectable tells following Wikipedia's Signs of AI writing checklist (26 patterns): em-dash overuse, delve/crucial/underscore vocabulary, thesaurus swaps, rule-of-three lists, hollow intros/conclusions, and AI-style code comments, commit messages, and PR descriptions.",
+      "trigger_phrases": [
+        "humanize this text",
+        "remove ai tells",
+        "make this sound human",
+        "does this read as ai",
+        "rewrite so it doesn't sound like ai",
+        "fix ai writing patterns",
+        "humanize my email",
+        "detect ai writing",
+        "escribir como persona",
+        "quitar el tono de ia",
+        "suena a chatgpt"
+      ]
+    },
+    {
+      "id": "claude_plugins",
+      "name": "Claude Plugins Directory",
+      "file": "skills/claude_plugins.md",
+      "role": "specialist",
+      "description": "Discovers and installs official Claude Code plugins from anthropics/claude-plugins-official — curated Anthropic directory covering GitHub, Playwright/browser, memory, MCP servers, and dev tooling. Install with /plugin marketplace add and /plugin install.",
+      "trigger_phrases": [
+        "install a claude plugin",
+        "claude code plugins",
+        "official claude plugins",
+        "browse claude plugins",
+        "plugin marketplace",
+        "add a plugin to claude",
+        "claude mcp plugin",
+        "instalar plugin de claude",
+        "plugins oficiales",
+        "marketplace de plugins"
+      ]
+    },
+    {
+      "id": "ui_ux_pro_max",
+      "name": "UI/UX Pro Max",
+      "file": "skills/ui_ux_pro_max.md",
+      "role": "specialist",
+      "description": "Design intelligence skill from nextlevelbuilder/ui-ux-pro-max-skill: 192 reasoning rules mapping audience/domain/goals to a concrete direction, 79 UI styles, 192 color palettes, 74 font pairings, and 22 tech stacks — replaces default UI choices with traceable design decisions.",
+      "trigger_phrases": [
+        "design this interface",
+        "choose a ui style",
+        "pick colors and fonts for",
+        "ui ux direction",
+        "what design style should",
+        "palette and typography",
+        "design system for my app",
+        "recommend a design",
+        "disenar interfaz",
+        "elegir estilo de ui",
+        "colores y tipografia para"
+      ]
+    },
+    {
+      "id": "impeccable",
+      "name": "Impeccable — AI Product Design Polish",
+      "file": "skills/impeccable.md",
+      "role": "specialist",
+      "description": "Paul Bakaus's design language for AI-built products from pbakaus/impeccable: 24 enforceable design commands, 60 detector rules (spacing, contrast, states, motion), and live browser iteration to verify rendered UI quality instead of just code.",
+      "trigger_phrases": [
+        "polish this ui",
+        "design quality check",
+        "run impeccable",
+        "fix spacing and typography",
+        "detector rules",
+        "live browser design review",
+        "make this look professional",
+        "design language for ai products",
+        "pulir la interfaz",
+        "revisar calidad de diseño",
+        "hacer que se vea profesional"
+      ]
+    },
+    {
+      "id": "video_use",
+      "name": "Video Use — Agent Video Editing",
+      "file": "skills/video_use.md",
+      "role": "specialist",
+      "description": "Edits videos with coding agents via browser-use/video-use: transcript-based editing (cut by what was said, not by scrubbing), Manim-generated motion graphics, and automatic subtitle generation with ffmpeg under the hood.",
+      "trigger_phrases": [
+        "edit this video",
+        "add subtitles to",
+        "cut the video based on transcript",
+        "generate motion graphics",
+        "manim animation",
+        "burn in captions",
+        "video editing with agent",
+        "transcribe and edit video",
+        "editar este video",
+        "subtitulos automaticos",
+        "editar video con ia"
+      ]
+    },
+    {
+      "id": "skillui",
+      "name": "SkillUI — Design System Extractor",
+      "file": "skills/skillui.md",
+      "role": "specialist",
+      "description": "Reverse-engineers a product's design system from amaancoderx/npxskillui — extracts color tokens, type scale, spacing, and component patterns from a site or codebase, then packages them as a Claude-ready skill so the agent rebuilds that exact look instead of generic UI.",
+      "trigger_phrases": [
+        "extract this design system",
+        "reverse engineer this ui",
+        "turn this site into a skill",
+        "npxskillui",
+        "clone this design language",
+        "make the agent use my design system",
+        "extract design tokens",
+        "generate a design skill",
+        "extraer sistema de diseño",
+        "convertir diseño en skill",
+        "token de diseño"
+      ]
     }
   ]
 }
