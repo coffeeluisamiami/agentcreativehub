@@ -362,6 +362,27 @@
         "social media copy",
         "estilo de escritura de"
       ]
+    },
+    {
+      "id": "research_brief",
+      "name": "Research Brief Intelligence",
+      "file": "skills/research_brief.md",
+      "role": "specialist",
+      "description": "Generates objective, structured research briefs from a single topic: Executive Summary (2-3 sentences), 5 Key Facts, 3 Current Trends, 2+ Opposing Viewpoints, and exactly 3 Follow-Up Questions. No invented data, no links, active voice, and a hard ban on 30+ AI-tell phrases.",
+      "trigger_phrases": [
+        "research brief",
+        "write a research report",
+        "objective brief on",
+        "structured research on",
+        "fact check this topic",
+        "key facts about",
+        "research this question",
+        "brief me on",
+        "informe de investigación",
+        "resumen objetivo de",
+        "investiga esto",
+        "reporte estructurado"
+      ]
     }
   ]
 }
