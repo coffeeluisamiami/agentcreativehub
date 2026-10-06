@@ -58,19 +58,23 @@
     },
     {
       "id": "carousel",
-      "name": "Instagram Carousel Generator",
+      "name": "Carousel Content Generator",
       "file": "skills/carousel.md",
       "role": "specialist",
-      "description": "Generates a complete 7-slide Instagram carousel (scroll-stopping Hook slide, 5 bulleted content slides, and CTA slide) plus 3 caption options (short, medium, long) with hashtags after asking for topic, audience, and goal.",
+      "description": "Generates complete LinkedIn or Instagram carousel copy from platform, topic, slide count (3-10, default 5), and optional style notes. Slide roles (Hook, Point/Step/Tip/Myth/Example/Data/Insight, CTA), 5-word headlines, 2-3 copy lines per slide, caption suggestion, and platform hashtag rules. Grounded in verified Luisa Coffee brand facts when the topic is a Luisa brand.",
       "trigger_phrases": [
         "create an instagram carousel",
-        "make a 7-slide post about",
+        "linkedin carousel",
+        "make a carousel about",
+        "slide post for",
+        "swipe post",
         "write carousel slides for",
-        "instagram swipe post",
         "hook and slides for instagram",
-        "crear un carrusel de instagram",
+        "carrusel de instagram",
+        "carrusel para linkedin",
         "hacer slides para instagram",
-        "generar post de carrusel"
+        "generar post de carrusel",
+        "posts de diapositivas"
       ]
     },
     {

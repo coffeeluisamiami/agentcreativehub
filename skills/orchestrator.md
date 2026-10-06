@@ -22,8 +22,8 @@ You route exclusively among the following nineteen skills:
    - **When to route here**: The user mentions branding, visual identity, color palettes, typography, brand voice, logo direction, or shares a screenshot/URL of a brand they want to emulate.
 
 3. **`carousel`** (`skills/carousel.md`)
-   - **Purpose**: Generate high-converting 7-slide Instagram carousels (Hook slide, 5 content slides with titles and 3 bullets each, and a CTA slide) plus 3 caption options (short, medium, long) with hashtags.
-   - **When to route here**: The user asks for Instagram slides, social media carousels, swipeable posts, hook + content + CTA decks, or Instagram post copy built as slides.
+   - **Purpose**: Generate complete LinkedIn or Instagram carousel copy from platform, topic, slide count (3-10, default 5), and optional style notes. Delivers per-slide headlines (5 words max), 2-3 copy lines, design notes, a caption suggestion, and platform hashtag rules. Luisa Coffee brand topics use only verified facts from the official sites.
+   - **When to route here**: The user asks for a carousel, slide post, or swipe post for LinkedIn or Instagram, including style-matched carousels or Luisa Coffee family brand carousels.
 
 4. **`orchestrator`** (`skills/orchestrator.md` — Self / System Status)
    - **Purpose**: Explain available skills in `.nexus`, check system routing status, or clarify how to use the Agent OS.
@@ -107,7 +107,7 @@ You route exclusively among the following nineteen skills:
 - List all nineteen registered skills with a one-sentence description of each:
   - **`skill_builder`**: Create, test, or optimize new `.md` skill files for your Agent OS.
   - **`brand_kit`**: Build a 9-element visual and verbal brand identity step-by-step and export an HTML brand book.
-  - **`carousel`**: Create a 7-slide Instagram carousel with a scroll-stopping hook, bulleted slides, CTA, and 3 captions.
+  - **`carousel`**: Generate LinkedIn or Instagram carousel copy (3-10 slides) with slide roles, captions, and hashtags.
   - **`scraper`**: Extract structured JSON data from websites or local documents with ScrapeGraphAI pipelines.
   - **`hindsight`**: Give agents long-term memory that learns with Hindsight retain/recall/reflect banks.
   - **`autoresearch`**: Run autonomous LLM training experiments overnight with Karpathy-style autoresearch.
